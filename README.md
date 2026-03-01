@@ -1,0 +1,1 @@
+This is an application that runs Streamlit to illustrate a **Deal dashboard**.
