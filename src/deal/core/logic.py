@@ -102,7 +102,7 @@ def compute_offer_with_avg(remaining_values, avg_ks):
     if cases_left not in VALID_CASES_LEFT:
         return {
             "valid": False,
-            "message": "Invalid number of remaining cases. Please try again..."
+            "error_message": "Invalid number of remaining cases. Valid count for the remaining cases should be: [17, 14, 11, 8, 5, 3, 2]. Please try again..."
         }
     # 1) Engineered Features (First 5)
     EV = float(np.mean(remaining_values))
