@@ -1,7 +1,7 @@
 [project]
 name = "deal"
 version = "0.1"
-description = "This is a Streamlit-based dashboard that illustrates a Deal game."
+description = "This is a Streamlit-based web server dashboard that illustrates a Deal game and simulates the banker's offer."
 readme = "README.md"
 requires-python = ">=3.10"
 

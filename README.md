@@ -57,9 +57,15 @@ The second diagram should look like this:
 This function creates a simple web server under the default Streamlit port 8501, by running the command `streamlit run`. We had better provide the full path of the file rather than the module path. So, in order to experiment with the Deal Game Dashboard, just run:
 
 ```
+streamlit run src/deal/app/main.py
+```
+
+in Linux, or:
+
+```
 streamlit run .\src\deal\app\main.py
 ```
 
-By checking and unchecking the case values that are still in the game, a banker's offer that is represented as `offer = k_prediction * EV` is calculated finally. In `http://localhost:8501/`, you should see something like this:
+in Windows. By checking and unchecking the case values that are still in the game, a banker's offer that is represented as `offer = k_prediction * EV` is calculated finally. In `http://localhost:8501/`, you should see something like this:
 
 ![Deal Dashboard](data/deal_dashboard.png)

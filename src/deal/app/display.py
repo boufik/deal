@@ -13,7 +13,7 @@ def display_streamlit_css_basics():
     """
     This function deals with displaying Streamlit and CSS basics
     """
-    st.set_page_config(page_title="Deal Game Dashboard", page_icon="💼", layout="wide")
+    st.set_page_config(page_title="Deal Game: Banker Offer Simulation", page_icon="💼", layout="wide")
     st.markdown("""
     <style>
         /* 1. Low-value blue checkboxes */
@@ -39,7 +39,8 @@ def display_values_grid(LOW_VALUES, HIGH_VALUES):
     # ------------------------------------------
     # ---- HTML row 1 for LOW_VALUES (Blue) ----
     # ------------------------------------------
-    st.markdown("<h2 style='color: #2196F3;'>Low Values (11 Total)</h2>", unsafe_allow_html=True)
+    st.markdown("<h5>This is a Streamlit-based web server dashboard that illustrates a typical Deal game with 22 cases and simulates the banker's offer.</h5>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: #2196F3;'>The 11 Low Values</h2>", unsafe_allow_html=True)
     selected = []
     cols_low = st.columns(len(LOW_VALUES))
     for i, value in enumerate(LOW_VALUES):
@@ -67,7 +68,7 @@ def display_values_grid(LOW_VALUES, HIGH_VALUES):
     # ------------------------------------------
     # ---- HTML row 2 for HIGH_VALUES (Red) ----
     # ------------------------------------------
-    st.markdown("<h2 style='color: #F44336; margin-top:1rem;'>High Values (11 Total)</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: #F44336; margin-top:1rem;'>The 11 High Values</h2>", unsafe_allow_html=True)
     cols_high = st.columns(len(HIGH_VALUES))
     for i, value in enumerate(HIGH_VALUES):
         with cols_high[i]:
@@ -111,7 +112,7 @@ def display_offer_and_metrics(result):
             border: 4px solid #00C853;
             color: #00C853;
             padding: 30px;
-            font-size: 36px;
+            font-size: 50px;
             font-weight:700;
             text-align: center;
             border-radius: 12px;">
