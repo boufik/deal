@@ -1,7 +1,7 @@
 This is an application that runs Streamlit to illustrate a **Deal dashboard**.
 
 Under the `src` folder, you can find the following sub-folders, named:
-* `app` or `ui` for the Python code that is related to the Streamlit Dashboard.
+* `app`for the Python code that is related to the UI, it is, a Streamlit Dashboard.
 * `core` for the Python code that is related to the actual functionalities and calculations that take place inside the project.
 * `tests` that contains predefined Streamlit-based code that can be found in their official webpage: `https://streamlit.io/playground`.
 
