@@ -7,12 +7,12 @@ requires-python = ">=3.10"
 
 # Runtime dependencies
 dependencies = [
-    "numpy",
-    "pandas",
-    "matplotlib",
-    "seaborn",
-    "openpyxl",
-    "streamlit"
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "openpyxl>=3.1",
+    "streamlit>=1.30"
 ]
 
 # Optional metadata
